@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #C9920E; 
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #252829; 
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #C9920E;
+  color: black;
+}
+
+/* Style the content */
+.banner {
+  background: url("teamrcb.jpeg");
+  background-color: #C9920E; 
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 700px;
+  width: 1620px;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f2efef;
+  padding: 10px;
+}
+
+.card {
+  background: url("RCB Background.jpeg");
+  height: 400px;
+  width: fit-content;
+}
+
+.card img {
+  transition: transform 0.3s ease; /* Smooth transition for the transform */
+}
+
+.card img:active {
+  transform: scale(1.1); /* Scale up the image when clicked */
+}
+
+.card img:hover {
+  transform: scale(1.05); /* Slightly scale up the image on hover */
+}
+
+.card h4 {
+  color: #C9920E; 
+}
+
+.card h5 {
+  color: #C9920E; 
+}
+
+.moving-left button {
+  left: 8px;
+  position: absolute;
+  top: 30px;
+  z-index: 99;
+}
+
+p.solid {
+  border-style: solid;
+}
+
+table {
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.center1 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td,
+th {
+  border: 1px solid #C9920E; 
+  text-align: left;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #C9920E; 
+}
+
+/* contact us page */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #C9920E;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #C9920E;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #e63329;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #C9920E;
+  padding: 10px;
+}
+
+/* Create two columns that float next to each other */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column,
+  input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+  }
+}
+.HS {
+  color: #e63329; 
+}
+h1 {
+  text-align: center;
+}
